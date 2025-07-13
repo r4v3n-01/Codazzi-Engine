@@ -27,7 +27,7 @@ struct WindowData
     WindowSize Size;
     WindowScale Scale;
 
-    WindowData(): Title("Codazzi Engine"), Size(900, 600){}
+    WindowData(): Title("Codazzi Engine"), Size(1280, 720){}
     WindowData(const std::string& title, const int width, const int height): Title(title), Size(width, height){};
 };
 
