@@ -1,16 +1,37 @@
-![Logo](docs/static/img/thumbnail.png)
+Codazzi Engine 🏔️
+Un motor gráfico 3D hecho en C++ y OpenGL, con el objetivo de facilitar la creación de juegos en 3D.
 
-<div align="center">
-  <img src="https://img.shields.io/github/actions/workflow/status/coderloff/ferx/cmake-single-platform.yml?style=for-the-badge" alt="Build" />
-  <img src="https://img.shields.io/github/license/coderloff/ferx?style=for-the-badge" alt="License" />
-  <img src="https://img.shields.io/github/contributors/coderloff/ferx?style=for-the-badge" alt="Contributors" />
-  <img src="https://img.shields.io/github/forks/coderloff/ferx?style=for-the-badge" alt="Forks" />
-  <img src="https://img.shields.io/github/stars/coderloff/ferx?style=for-the-badge&color=%23DFB317" alt="Stars" />
-  <img src="https://img.shields.io/github/issues/coderloff/ferx?style=for-the-badge" alt="Issues" />
-</div>
+Descripción
+Codazzi Engine es un proyecto personal que hago con poca experiencia. Usando C++ y la API gráfica de OpenGL, este proyecto intentará construir un motor funcional, y fácil de entender.
 
-<br>
+Este motor comenzó como un fork de Ferx Engine, un proyecto educativo que proporcionó una base sólida. El objetivo actual es refactorizar, expandir y añadir nuevas funcionalidades sobre esa base para crear una herramienta más robusta y completa.
 
-Ferx is a basic game engine written in C++. This project is mainly designed for learning purposes. For more information, check out [docs](https://triofyx.github.io/ferx)
+Estado Actual
+Actualmente, el motor cuenta con las siguientes características básicas:
 
-![Ferx](docs/static/img/engine.png)
+Renderizado de una escena simple con un cubo de prueba.
+
+Una interfaz de usuario para depuración y control creada con ImGui.
+
+Controles de cámara básicos (Paneo, Zoom y Órbita).
+
+Capacidad para modificar propiedades en tiempo real, como colores de objetos y del fondo.
+
+Hoja de Ruta (Roadmap) 🗺️
+Los próximos pasos planeados para el desarrollo del motor son:
+
+[ ] Corrección de Bugs: Solucionar los problemas de interacción entre la cámara y la interfaz.
+
+[ ] Arquitectura de Componentes: Implementar un sistema de GameObjects y Components similar al de Unity.
+
+[ ] Carga de Modelos: Añadir la capacidad de cargar y renderizar modelos 3D desde archivos (formato .obj para empezar).
+
+[ ] Sistema de Materiales: Crear un sistema básico para manejar texturas y shaders.
+
+[ ] Integración de Scripting: Incorporar Lua para manejar la lógica de los objetos del juego.
+
+Agradecimientos
+Este proyecto no sería posible sin el increíble trabajo inicial de los creadores del Ferx Engine. Su base educativa ha sido fundamental para acelerar el desarrollo y el aprendizaje.
+
+Licencia
+Este proyecto está distribuido bajo la Licencia MIT. Puedes ver el archivo LICENSE para más detalles.
